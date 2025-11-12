@@ -9,7 +9,6 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-
     while(flag){
         printf("\narray aperation\n");
         printf("1.display\n");
@@ -74,6 +73,6 @@ int main(){
                  printf("invalide choice....please re-enter choice...");
         }
     }
-
+    
     return 0;
 }
