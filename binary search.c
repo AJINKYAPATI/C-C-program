@@ -5,9 +5,7 @@ int main(){
     int key;
     printf("Enter the key :");
     scanf("%d",&key);
-
     int start=0,end=len-1,flag=1;
-
     while(start<=end){
         int mid=(start+end)/2;
         if(arr[mid]==key){
@@ -21,10 +19,8 @@ int main(){
             end=mid-1;
         }        
     }
-
     if(flag){
         printf("key not found ");
     }
-
     return 0;
 }
